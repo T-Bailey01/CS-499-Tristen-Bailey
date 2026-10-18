@@ -1,39 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tristen Bailey | Computer Science ePortfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f7fa;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f3a5f;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4rem;
+        }
+
+        header p {
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 14px;
+            border-bottom: 1px solid #d9e1e8;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #1f3a5f;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 28px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #1f3a5f;
+            border-bottom: 2px solid #d9e1e8;
+            padding-bottom: 8px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1f3a5f;
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            margin: 6px 6px 6px 0;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #294f7e;
+        }
+
+        .artifact-box {
+            background-color: #f8fafc;
+            border-left: 4px solid #1f3a5f;
+            padding: 16px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #1f3a5f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 
 <body>
+
+<header>
     <h1>Tristen Bailey</h1>
-    <h2>Computer Science ePortfolio</h2>
+    <p>Computer Science ePortfolio</p>
+</header>
 
-    <p>
-        Welcome to my CS 499 Computer Science ePortfolio.
-        This portfolio will showcase my growth throughout the
-        Computer Science program and my work in software engineering,
-        algorithms and data structures, databases, and data analytics.
-    </p>
+<nav>
+    <a href="#assessment">Self-Assessment</a>
+    <a href="#review">Code Review</a>
+    <a href="#software">Software Design</a>
+    <a href="#algorithms">Algorithms</a>
+    <a href="#databases">Databases</a>
+</nav>
 
-    <h2>Capstone Project</h2>
+<main>
 
-    <p>
-        My capstone project focuses on enhancing IVTRK, an Android
-        inventory tracking application, into a more advanced warehouse
-        inventory and analytics system.
-    </p>
+    <section id="assessment">
+        <h2>Professional Self-Assessment</h2>
 
-    <h2>Portfolio Contents</h2>
+        <p>
+            Throughout the Computer Science program, I have developed skills
+            in software development, algorithms and data structures, database
+            design, security, and data analysis.
+        </p>
 
-    <ul>
-        <li>Professional Self-Assessment</li>
-        <li>Code Review</li>
-        <li>Software Engineering and Design Enhancement</li>
-        <li>Algorithms and Data Structures Enhancement</li>
-        <li>Database Enhancement</li>
-        <li>Original and Enhanced IVTRK Artifacts</li>
-    </ul>
+        <p>
+            My coursework has helped shape my professional goals toward a
+            career involving data analytics and the development of systems
+            that support business decision making.
+        </p>
+
+        <p>
+            The projects included in this portfolio demonstrate my growth
+            across multiple areas of computer science and show how these areas
+            work together in practical software development.
+        </p>
+    </section>
+
+
+    <section id="review">
+        <h2>Code Review</h2>
+
+        <p>
+            Before enhancing IVTRK, I completed a code review of the original
+            application. The review examined the existing functionality,
+            structure, database design, algorithms, validation, security, and
+            opportunities for improvement.
+        </p>
+
+        <a class="button" href="YOUR_CODE_REVIEW_LINK" target="_blank">
+            View Code Review
+        </a>
+    </section>
+
+
+    <section id="software">
+        <h2>Software Design and Engineering</h2>
+
+        <p>
+            The first enhancement focused on improving the structure,
+            maintainability, usability, and reliability of IVTRK.
+        </p>
+
+        <div class="artifact-box">
+            <p>
+                Improvements included stronger validation, improved separation
+                between application components, responsive interface changes,
+                inventory summary information, and search functionality.
+            </p>
+        </div>
+
+        <a class="button" href="software-design-narrative.docx">
+            View Narrative
+        </a>
+    </section>
+
+
+    <section id="algorithms">
+        <h2>Algorithms and Data Structures</h2>
+
+        <p>
+            The second enhancement focused on improving how inventory data is
+            searched, sorted, grouped, and prioritized.
+        </p>
+
+        <div class="artifact-box">
+            <p>
+                The enhancement used structures such as ArrayList, HashMap,
+                Comparator, and PriorityQueue to support sorting, filtering,
+                grouping, and restock prioritization.
+            </p>
+        </div>
+
+        <a class="button" href="algorithms-narrative.docx">
+            View Narrative
+        </a>
+    </section>
+
+
+    <section id="databases">
+        <h2>Databases</h2>
+
+        <p>
+            The database enhancement expanded the original SQLite database so
+            inventory activity could be preserved instead of only storing the
+            current quantity.
+        </p>
+
+        <div class="artifact-box">
+            <p>
+                The enhanced database records inventory additions, quantity
+                changes, deletions, timestamps, and usernames. Database
+                migrations and transactions were also added to preserve data
+                and improve consistency.
+            </p>
+        </div>
+
+        <a class="button" href="database-narrative.docx">
+            View Narrative
+        </a>
+    </section>
+
+
+    <section>
+        <h2>Original and Enhanced Artifacts</h2>
+
+        <p>
+            The original and enhanced versions of the IVTRK project are
+            included so the progression of the application can be reviewed.
+        </p>
+
+        <a class="button" href="original-artifact.zip">
+            Original IVTRK
+        </a>
+
+        <a class="button" href="enhanced-artifact.zip">
+            Enhanced IVTRK
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>Tristen Bailey | CS 499 Computer Science ePortfolio</p>
+</footer>
+
 </body>
+
 </html>
