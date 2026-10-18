@@ -30,6 +30,7 @@
 
         header p {
             margin-top: 10px;
+            font-size: 1.1rem;
         }
 
         nav {
@@ -39,6 +40,7 @@
             border-bottom: 1px solid #d9e1e8;
             position: sticky;
             top: 0;
+            z-index: 100;
         }
 
         nav a {
@@ -70,6 +72,10 @@
             color: #1f3a5f;
             border-bottom: 2px solid #d9e1e8;
             padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #37474f;
         }
 
         .button {
@@ -115,114 +121,124 @@
     <a href="#software">Software Design</a>
     <a href="#algorithms">Algorithms</a>
     <a href="#databases">Databases</a>
+    <a href="#artifacts">Artifacts</a>
 </nav>
 
 <main>
 
     <section id="assessment">
-    <h2>Professional Self-Assessment</h2>
 
-    <p>
-        Throughout the Computer Science program, I have developed from someone
-        primarily interested in technology into someone who is comfortable
-        designing software, working with data, evaluating algorithms, and
-        thinking about how technical decisions affect users and organizations.
-        My strongest professional interest has developed around data analytics
-        and the use of software and databases to support decision making.
-        Completing the program and building this ePortfolio has helped me
-        recognize that my strengths are not limited to writing code. I am most
-        interested in understanding a problem, organizing the data behind it,
-        and building a solution that provides useful information to the people
-        who need it.
-    </p>
+        <h2>Professional Self-Assessment</h2>
 
-    <p>
-        Collaboration and communication have also been important parts of my
-        development. In courses involving Agile and Scrum, I worked with
-        concepts such as user stories, testing, and team responsibilities.
-        My experience as a tester on the SNHU Travel project helped me
-        understand that software development is not an individual process and
-        that requirements must be communicated clearly between different roles.
-        Throughout the program, I have also practiced communicating technical
-        information through project documentation, presentations, journals,
-        and my CS 499 code review. These experiences taught me that a
-        technically correct solution is not enough if the reasoning behind it
-        cannot be explained to teammates, managers, or other stakeholders.
-    </p>
-
-    <p>
-        My coursework in algorithms and data structures helped me better
-        understand that the way data is organized can directly affect how
-        useful and efficient a program becomes. For example, in CS 370 I
-        worked with reinforcement learning and deep Q-learning, which required
-        me to think about how an algorithm learns from previous states,
-        actions, and rewards. In my capstone, I applied similar problem solving
-        principles on a smaller scale by choosing structures such as lists,
-        comparators, a HashMap, and a PriorityQueue based on how inventory
-        information needed to be searched, grouped, sorted, or prioritized.
-        This reinforced the idea that data structures should be selected based
-        on the problem being solved rather than simply using the most familiar
-        option.
-    </p>
-
-    <p>
-        Software engineering and database development have become two of my
-        strongest technical areas. Across the program I have worked with Java,
-        Python, Android development, SQL, MongoDB, and full stack development.
-        In CS 465, for example, I worked with a MEAN-stack application and
-        MongoDB, which gave me experience with web APIs and document-based
-        databases. My capstone IVTRK application allowed me to bring several
-        of these concepts together. I improved the structure and validation of
-        the application, added algorithms for organizing inventory, and
-        expanded the SQLite database to include transaction history, database
-        migrations, timestamps, and username based audit records. These
-        changes taught me that a database should not only store the current
-        state of an application but should also be designed around the
-        information that may be needed later for analysis, accountability, or
-        decision making.
-    </p>
-
-    <p>
-        Security is another area where my thinking has changed throughout the
-        program. I now understand security as something that should influence
-        design decisions from the beginning instead of being added after
-        development is complete. Input validation, permission handling,
-        controlled database operations, and maintaining an audit trail are
-        examples of security minded decisions I incorporated into IVTRK. I
-        also recognize that there are still areas that could be improved, such
-        as stronger credential storage and authentication practices.
-        Identifying those limitations is part of developing a security mindset
-        because secure software requires continually examining where data or
-        application behavior could be exposed to misuse.
-    </p>
-
-    <p>
-        The artifacts in this portfolio show how these different areas of
-        computer science work together. The software design and engineering
-        enhancement demonstrates improvements in application structure,
-        validation, usability, and maintainability. The algorithms and data
-        structures enhancement demonstrates how inventory data can be searched,
-        sorted, grouped, and prioritized using structures selected for specific
-        purposes. The database enhancement demonstrates how the application
-        evolved from storing only current inventory values into maintaining
-        historical records and a basic audit trail. Together, the enhancements
-        show the progression of IVTRK from a basic course project into a more
-        complete inventory system.
-    </p>
-
-    <p>
-        Completing this ePortfolio has also helped clarify the type of work I
-        want to pursue after graduation. My goal is to move toward data
-        analytics or another role where I can combine programming, databases,
-        and analytical thinking to solve practical business problems. I value
-        solutions that are useful, understandable, and based on reliable data.
-        The work in this portfolio demonstrates the technical foundation I have
-        developed in the Computer Science program and represents the direction
-        I want to continue developing professionally.
+        <p>
+            Throughout the Computer Science program, I have developed from
+            someone primarily interested in technology into someone who is
+            comfortable designing software, working with data, evaluating
+            algorithms, and thinking about how technical decisions affect
+            users and organizations. My strongest professional interest has
+            developed around data analytics and the use of software and
+            databases to support decision making. Completing the program and
+            building this ePortfolio has helped me recognize that my strengths
+            are not limited to writing code. I am most interested in
+            understanding a problem, organizing the data behind it, and
+            building a solution that provides useful information to the people
+            who need it.
         </p>
+
+        <p>
+            Collaboration and communication have also been important parts of
+            my development. In courses involving Agile and Scrum, I worked with
+            concepts such as user stories, testing, and team responsibilities.
+            My experience as a tester on the SNHU Travel project helped me
+            understand that software development is not an individual process
+            and that requirements must be communicated clearly between
+            different roles. Throughout the program, I have also practiced
+            communicating technical information through project documentation,
+            presentations, journals, and my CS 499 code review. These
+            experiences taught me that a technically correct solution is not
+            enough if the reasoning behind it cannot be explained to teammates,
+            managers, or other stakeholders.
+        </p>
+
+        <p>
+            My coursework in algorithms and data structures helped me better
+            understand that the way data is organized can directly affect how
+            useful and efficient a program becomes. For example, in CS 370 I
+            worked with reinforcement learning and deep Q-learning, which
+            required me to think about how an algorithm learns from previous
+            states, actions, and rewards. In my capstone, I applied similar
+            problem-solving principles on a smaller scale by choosing
+            structures such as lists, comparators, a HashMap, and a
+            PriorityQueue based on how inventory information needed to be
+            searched, grouped, sorted, or prioritized. This reinforced the idea
+            that data structures should be selected based on the problem being
+            solved rather than simply using the most familiar option.
+        </p>
+
+        <p>
+            Software engineering and database development have become two of
+            my strongest technical areas. Across the program I have worked with
+            Java, Python, Android development, SQL, MongoDB, and full-stack
+            development. In CS 465, for example, I worked with a MEAN-stack
+            application and MongoDB, which gave me experience with web APIs and
+            document-based databases. My capstone IVTRK application allowed me
+            to bring several of these concepts together. I improved the
+            structure and validation of the application, added algorithms for
+            organizing inventory, and expanded the SQLite database to include
+            transaction history, database migrations, timestamps, and
+            username-based audit records. These changes taught me that a
+            database should not only store the current state of an application
+            but should also be designed around the information that may be
+            needed later for analysis, accountability, or decision making.
+        </p>
+
+        <p>
+            Security is another area where my thinking has changed throughout
+            the program. I now understand security as something that should
+            influence design decisions from the beginning instead of being
+            added after development is complete. Input validation, permission
+            handling, controlled database operations, and maintaining an audit
+            trail are examples of security-minded decisions I incorporated
+            into IVTRK. I also recognize that there are still areas that could
+            be improved, such as stronger credential storage and authentication
+            practices. Identifying those limitations is part of developing a
+            security mindset because secure software requires continually
+            examining where data or application behavior could be exposed to
+            misuse.
+        </p>
+
+        <p>
+            The artifacts in this portfolio show how these different areas of
+            computer science work together. The software design and engineering
+            enhancement demonstrates improvements in application structure,
+            validation, usability, and maintainability. The algorithms and data
+            structures enhancement demonstrates how inventory data can be
+            searched, sorted, grouped, and prioritized using structures
+            selected for specific purposes. The database enhancement
+            demonstrates how the application evolved from storing only current
+            inventory values into maintaining historical records and a basic
+            audit trail. Together, the enhancements show the progression of
+            IVTRK from a basic course project into a more complete inventory
+            system.
+        </p>
+
+        <p>
+            Completing this ePortfolio has also helped clarify the type of work
+            I want to pursue after graduation. My goal is to move toward data
+            analytics or another role where I can combine programming,
+            databases, and analytical thinking to solve practical business
+            problems. I value solutions that are useful, understandable, and
+            based on reliable data. The work in this portfolio demonstrates the
+            technical foundation I have developed in the Computer Science
+            program and represents the direction I want to continue developing
+            professionally.
+        </p>
+
     </section>
 
+
     <section id="review">
+
         <h2>Code Review</h2>
 
         <p>
@@ -232,13 +248,23 @@
             opportunities for improvement.
         </p>
 
-        <a class="button" href="YOUR_CODE_REVIEW_LINK" target="_blank">
+        <p>
+            The review also identified the areas that would later become the
+            software design, algorithms and data structures, and database
+            enhancements.
+        </p>
+
+        <a class="button"
+           href="https://youtu.be/Mvl1hXvZUNc"
+           target="_blank">
             View Code Review
         </a>
+
     </section>
 
 
     <section id="software">
+
         <h2>Software Design and Engineering</h2>
 
         <p>
@@ -247,20 +273,27 @@
         </p>
 
         <div class="artifact-box">
+
+            <h3>Enhancement Highlights</h3>
+
             <p>
                 Improvements included stronger validation, improved separation
                 between application components, responsive interface changes,
                 inventory summary information, and search functionality.
             </p>
+
         </div>
 
-        <a class="button" href="software-design-narrative.docx">
+        <a class="button"
+           href="documents/software-design-narrative.docx">
             View Narrative
         </a>
+
     </section>
 
 
     <section id="algorithms">
+
         <h2>Algorithms and Data Structures</h2>
 
         <p>
@@ -269,20 +302,27 @@
         </p>
 
         <div class="artifact-box">
+
+            <h3>Enhancement Highlights</h3>
+
             <p>
                 The enhancement used structures such as ArrayList, HashMap,
                 Comparator, and PriorityQueue to support sorting, filtering,
                 grouping, and restock prioritization.
             </p>
+
         </div>
 
-        <a class="button" href="algorithms-narrative.docx">
+        <a class="button"
+           href="documents/algorithms-narrative.docx">
             View Narrative
         </a>
+
     </section>
 
 
     <section id="databases">
+
         <h2>Databases</h2>
 
         <p>
@@ -292,21 +332,28 @@
         </p>
 
         <div class="artifact-box">
+
+            <h3>Enhancement Highlights</h3>
+
             <p>
                 The enhanced database records inventory additions, quantity
                 changes, deletions, timestamps, and usernames. Database
                 migrations and transactions were also added to preserve data
                 and improve consistency.
             </p>
+
         </div>
 
-        <a class="button" href="database-narrative.docx">
+        <a class="button"
+           href="documents/database-narrative.docx">
             View Narrative
         </a>
+
     </section>
 
 
-    <section>
+    <section id="artifacts">
+
         <h2>Original and Enhanced Artifacts</h2>
 
         <p>
@@ -314,16 +361,20 @@
             included so the progression of the application can be reviewed.
         </p>
 
-        <a class="button" href="original-artifact.zip">
+        <a class="button"
+           href="artifacts/original-IVTRK.zip">
             Original IVTRK
         </a>
 
-        <a class="button" href="enhanced-artifact.zip">
+        <a class="button"
+           href="artifacts/enhanced-IVTRK.zip">
             Enhanced IVTRK
         </a>
+
     </section>
 
 </main>
+
 
 <footer>
     <p>Tristen Bailey | CS 499 Computer Science ePortfolio</p>
